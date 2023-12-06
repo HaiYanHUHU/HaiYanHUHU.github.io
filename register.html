@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+   
+</head>
+<body>
+<div class="big-bg">
+    <!-- header -->
+    <div class="">
+        <div class="header-bg">
+            <div class="container">
+                <header class="d-flex flex-wrap justify-content-center py-1">
+                    <a href="game.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+                        Click here. Join the game. Get Coupon.
+                    </a>
+        
+                    <ul class="nav nav-pills text-light fs-6">
+                        <li class="nav-item"> <i class="bi bi-clock-fill px-1"></i>
+                            Open Time: 10:00-20:00 &nbsp;
+                            <i class="bi bi-telephone-fill px-1"></i>353-132390001</li>
+                    </ul>
+                    </header>
+            </div>
+        </div>
+                <!-- nav -->
+        <div class="nav-bg border-bottom">
+            <div class="container">
+                <header class="d-flex flex-wrap justify-content-center py-3">
+                <a href="home.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <span class="fw-bold font1 fs-4 font-color-y">
+                        <img src="images/logo.png" width="38" alt="logo"/>&nbsp;&nbsp;H's Cakeshop
+                        </span>
+                </a>
+
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="home.html" class="nav-link px-2">Home</a></li>
+                    <li class="nav-item"><a href="cake.html" class="nav-link px-2">Cakes</a></li>
+                    <li class="nav-item"><a href="register.html" class="nav-link active px-2">Register</a></li>
+                    <li class="nav-item"><a href="aboutus.html" class="nav-link px-2">About us</a></li>
+                    <li class="nav-item"><a href="shops.html" class="nav-link px-2">Shops</a></li>
+                    <li class="nav-item"><a href="join.html" class="nav-link px-2">Join us</a></li>
+                </ul>
+                </header>
+            </div>
+        </div>
+    </div>
+    <!-- text -->
+    <div class="text">
+        <ol>
+            <li class="text_title font3 fs-1">The best customer experience!</li>
+            <li class="font3 fs-5">You can place your catering order online quickly and easily. </li>
+            <li class="font3 fs-5">We can also help with rush or custom orders by phone or email.</li>
+        </ol>
+    </div>
+    <!--  -->
+    <div class="cakebox">
+            <ul class="cake">
+                <li class="cake_text">
+                    <a class="cake_img_box" href="#"> <img src="./images/cake.jpg" alt=""></a >
+                    <h1>Delicious Cake</h1>
+                    <p>Delicious cakes for you and your family</p >
+                </li>
+                <li class="cake_text">
+                    <a class="cake_img_box" href="#"><img src="./images/eclair.jpg" alt=""></a >
+                    <h1>Dessert</h1>
+                    <p>Chocolate cookies baked to perfection</p >
+                </li>
+                <li class="cake_text">
+                    <a class="cake_img_box" href="#"><img src="./images/loaf.jpg" alt=""></a >
+                    <h1>breakfast</h1>
+                    <p>Assorted pastry cases, mini croissant breakfast</p >
+                </li>
+                <li class="cake_text right_img">
+                    <a class="cake_img_box" href="#"><img src="./images/coffee.jpg" alt=""></a >
+                    <h1>Coffee</h1>
+                    <p>Beverages and tea, coffee,</p >
+                    <p> etc</p >
+                </li>
+            </ul>
+
+            <form>
+                <p class="form-title">Need further help placing your catering order?</p>
+                <div class="form-line">
+                    <div class="form-item">
+                        <p class="form-item-label">First Name</p>
+                        <input id="firstName" class="form-item-inp" type="text" name="">
+                    </div>
+                    <div class="form-item">
+                        <p class="form-item-label">Last Name</p>
+                        <input class="form-item-inp" type="text" name="">
+                    </div>
+                </div>
+                <div class="form-line">
+                    <div class="form-item">
+                        <p class="form-item-label">Your Number</p>
+                        <input id="number" class="form-item-inp" type="tel" name="number">
+                    </div>
+                    <div class="form-item">
+                        <p class="form-item-label">Your Email</p>
+                        <input class="form-item-inp" type="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-line">
+                    <div class="form-item long">
+                        <p class="form-item-label">Your Address</p>
+                        <input id="address" class="form-item-inp" type="address" name="address" required>
+                    </div>
+                </div>
+                <div class="form-line">
+                    <div class="form-item long">
+                        <p class="form-item-label">Outline of Group Order or Specialty Cake needs</p>
+                        <input class="form-item-inp" type="comments" name="comments" required>
+                    </div>
+                </div>
+                <div class="form-line">
+                    <div class="form-item long">
+                        <p class="form-item-label">How do you want to recieve it?</p>
+                        <select class="form-item-inp" id="delivery" name="delivery">
+                            <option value="delivery">delivery</option>
+                            <option value="pick up">pick up</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                    </div>
+                </div>
+                <div class="form-line">
+                    <div class="form-item long">
+                        <p class="form-item-label">Do you want to leave us other comments?</p>
+                        <textarea class="form-item-inp" id="comments" name="comments"></textarea>
+                    </div>
+                </div>
+                <div class="form-line">
+                    <div class="form-item">
+                        <p class="form-item-label">How would you like us to contact you?</p>
+                        <input class="mx-2" type="radio" name="contact" value="phone">phone
+                        <input class="mx-2" type="radio" name="contact" value="email">email
+                    </div>
+                </div>
+                <div class="form-line">
+                    <div class="form-item">
+                        <div>
+                            <input type="checkbox"> I agree to your T&C
+                        </div>
+                        <input type="checkbox"> I want to subscibe to your monthly newsletter
+                    </div>
+                </div>
+                <button type="button" id="submit" class="btn submit-wu text-light fw-bold py-3"> Submit </button>
+            </form>
+
+    </div>
+         
+         
+
+
+    <!-- footer -->
+    <div class="header-bg py-3">
+        <div class="container">
+            <div class="row">
+                <div class="footer-lineh col-sm-12 col-lg-9 text-light">
+                    <!--  -->
+                   <div>
+                    <i class="bi bi-clock-fill"></i>
+                    &nbsp;Open Time: 10:00-20:00 &nbsp;
+                    <i class="bi bi-telephone-fill px-2"></i>353-132390001
+                    </div>
+                    <!--  -->
+                    <div>Email: &nbsp;hscakeshop@gmail.com</div>
+                    <div>Address: &nbsp;212street,239 Longhua Avenue, Zone 6.</div>
+                    <div>Portions of this content are ©2022-2023 by GroupN. Content is the final test item.</div>
+                </div>
+                <h2 class="col-sm-12 col-lg-3 text-light text-center fs-2">
+                    <i class="bi bi-instagram px-3"></i>
+                    <i class="bi bi-facebook px-3"></i>
+                    <i class="bi bi-tiktok px-3"></i>
+                </h2>
+            </div>
+            <!-- naver -->
+        </div>
+    </div>
+
+       <!--  -->
+       <script src="js/cake-wu.js" ></script>
+   <script src="bootstrap/js/bootstrap.bundle.min.js" ></script>
+
+</body>
+</html>

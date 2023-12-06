@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Oswald:wght@500&family=Playfair+Display:ital,wght@1,500&display=swap');
 .font1{
     font-family: 'Hedvig Letters Serif', serif !important; 
-    color: #C6AB45;
+    /* color: #C6AB45; */
     font-style: italic;
 }
 .font2{
@@ -27,12 +27,20 @@
 .nav-link{
     color: #C6AB45;
 }
-.font-color-y{ color: #C6AB45;}
+.font-color-y{ color: #C6AB45 !important;}
 .nav{
     --bs-nav-link-color: #C6AB45;
     --bs-nav-link-hover-color: #ddb41d;
 }
-
+.btn-warning {   
+    --bs-btn-bg: #C6AB45;
+    --bs-btn-border-color: #C6AB45;
+    --bs-btn-hover-bg: #ddb41d;
+    --bs-btn-hover-border-color:#C6AB45;
+    --bs-btn-active-bg:#ddb41d;
+    --bs-btn-active-border-color: #C6AB45;
+    --bs-btn-disabled-bg:#ddb41d;
+    --bs-btn-disabled-border-color:#ddb41d;}
 /*  */
 .cakes-text{
      background-color: rgba(0, 0, 0, 0.364);
@@ -47,6 +55,271 @@
     display: table;
     margin: 0 auto;
 }
+.container{width: 84% !important;}
+
+/* game css */
+#g-contaner {
+	width:100%;
+	border:1px solid #ffffff;
+	margin-top: 20px;
+}
+.game-b{ height: 40px;}
+#g-contaner div {
+	width:33%;
+	background:#C6AB45;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	line-height:200px;
+	float:left;
+	border:1px solid #ffffff;
+}
+#g-contaner #five {
+	transition:all 0.5s ease-in-out 0s;
+}
+#five{background: #e6b815 !important;}
+#one span, #three span, #six span, #seven span, #two span, #eight span,#four span,#five span,#nigth span{
+    display: block;
+    width:100%;
+    height: 100%;
+    background-size:cover}
+#one span, #three span, #six span, #seven span{background:url(../images/game1.png) no-repeat center;}
+#two span, #eight span{ background:url(../images/game2.png) no-repeat center;}
+#four span{background:url(../images/game3.png) no-repeat center;}
+#five span{background:url(../images/game5.png) no-repeat center;}
+#nigth span{background:url(../images/game4.png) no-repeat center;}
+
+#g-contaner #five:hover {
+	cursor:pointer;
+	font-size:25px;
+	transform:scale(1.2) rotate(360deg);
+	background:#fff;
+	color:#fff;
+}
+.ys {
+	transform:scale(1.2);
+	box-shadow:0 0 0 200px #e6b815 inset;
+}
+
+
+/* --yutong wu register CSS-- */
+ol,ul {
+    list-style: none;
+}
+
+.text {
+    text-align: center;
+    font-family: math;
+}
+
+.text_title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+/* 四张图部分*/
+
+.cakebox {
+    margin-top: 40px;
+    /* margin-bottom: 100px; */
+    width: 100%;
+}
+
+.cake {
+
+    text-align: center;
+}
+
+.cake_text {
+
+    display: inline-block;
+
+    width: 20%;
+    text-align: center;
+    margin-right: 3%;
+    vertical-align: top;
+}
+
+.right_img {
+    margin-right: 0 !important;
+}
+
+.cake_img_box {
+
+    display: inline-block;
+
+    width: 100%;
+
+    padding-top: 100%;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.cake img {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: all 0.5s ease-in-out;
+}
+
+
+.cake img:hover {
+
+    transform: scale(1.1, 1.1);
+}
+
+.cake_text h1 {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 36px;
+
+    font-family: math;
+}
 
 
 
+/* form*/
+
+form {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+
+.form-title {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.form-line {
+    margin: 0 auto 30px auto;
+    width: 80%;
+}
+
+.form-item {
+    width: 40%;
+
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.form-item.long {
+    width: 85%;
+}
+
+.form-item-label {
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+
+.form-item-inp {
+    width: 100%;
+    height: 40px;
+}
+
+.form-item-radio {
+    text-align: left;
+    font-size: 18px;
+    padding-left: 30px;
+    height: 40px;
+}
+
+.submit-wu {
+    background-color:#C6AB45;
+    width: 140px;   
+    text-align: center;   
+    border: none;
+    font-size: 16px;
+    font-family: math;
+}
+
+.submit-wu2 {
+    background-color:#C6AB45;
+    width: 140px;  
+    text-align: center;  
+    border: none;
+    font-size: 16px;
+    font-family: math;
+}
+.submit-wu:hover{
+    background-color:rgb(230, 189, 42);
+}
+.submit-wu2:hover{
+    background-color:rgb(230, 189, 42);
+}
+
+
+/* --yutong wu join CSS -- */
+.content {
+    padding: 20px;
+}
+
+.title {
+}
+.intro{ margin-bottom: 20px;}
+
+.job_box {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+    padding-right: 20px;
+    min-width: 820px;
+}
+
+.job_box:last-of-type {
+    border-bottom: 0 solid #000;
+}
+
+.job_box .img {
+    width: 25%;
+    min-width: 200px;
+    background-color: #ccc;
+
+    vertical-align: top;
+}
+
+.info_box {
+    display: inline-block;
+    margin: 0 20px;
+    width: 65%;
+}
+
+.job_title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.detail_list {
+    padding-left: 40px;
+}
+
+.detail_list li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.application {
+    float: right;
+    margin-right: 10%;
+    margin-top: 40px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
