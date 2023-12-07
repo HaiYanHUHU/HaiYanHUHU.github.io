@@ -62,6 +62,7 @@
 	width:100%;
 	border:1px solid #ffffff;
 	margin-top: 20px;
+    overflow: hidden;
 }
 .game-b{ height: 40px;}
 #g-contaner div {
