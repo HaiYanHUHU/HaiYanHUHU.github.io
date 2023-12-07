@@ -125,19 +125,15 @@ ol,ul {
 
 .cakebox {
     margin-top: 40px;
-    /* margin-bottom: 100px; */
     width: 100%;
 }
 
 .cake {
-
     text-align: center;
 }
 
 .cake_text {
-
     display: inline-block;
-
     width: 20%;
     text-align: center;
     margin-right: 3%;
@@ -149,33 +145,25 @@ ol,ul {
 }
 
 .cake_img_box {
-
     display: inline-block;
-
     width: 100%;
-
     padding-top: 100%;
-
     border-radius: 50%;
     overflow: hidden;
-
     position: relative;
 }
 
 .cake img {
     width: 100%;
     height: 100%;
-
     position: absolute;
     top: 0;
     left: 0;
-
     transition: all 0.5s ease-in-out;
 }
 
 
 .cake img:hover {
-
     transform: scale(1.1, 1.1);
 }
 
@@ -183,7 +171,6 @@ ol,ul {
     margin-top: 10px;
     font-size: 20px;
     line-height: 36px;
-
     font-family: math;
 }
 
