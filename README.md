@@ -1,4 +1,14 @@
 # HaiYanHUHU.github.io
-web group
-about cake shop
-html+css+bootstrap+js
+web group:
+HAIYAN HU 
+YUTONG WU
+SANG TE
+
+
+A website about a cake shop
+
+https://haiyanhuhu.github.io/
+
+Related Technology：html+css+bootstrap+js
+
+
